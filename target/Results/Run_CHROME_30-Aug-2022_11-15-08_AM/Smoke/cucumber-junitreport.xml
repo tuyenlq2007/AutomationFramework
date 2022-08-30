@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="83.766553">
+<testcase classname="Export Weather Data" name="SWD_01 - Export weather data into test report" time="83.766553">
+<system-out><![CDATA[Given user launches application under test..................................passed
+And "FORECAST_PAGE" shows up................................................passed
+When user clicks on "FORECAST_PAGE_PAST_WEATHER_LINK".......................passed
+Then "PAST_WEATHER_PAGE" shows up...........................................passed
+And "PAST_WEATHER_PAGE_WEATHER_LINKS_AREA" is present.......................passed
+When user select "PAST_WEATHER_PAGE_SELECT_MONTH_DROPDOWN" as "Past 2 Weeks".passed
+Then user export weather data into test report..............................passed
+]]></system-out>
+</testcase>
+</testsuite>
